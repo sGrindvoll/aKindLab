@@ -3859,8 +3859,8 @@ spec:
                   x-kubernetes-preserve-unknown-fields: true
                 type: array
               path:
-                description: Path to the directory containing the kustomization.yaml
-                  file, or the set of plain YAMLs a kustomization.yaml should be generated
+                description: Path to the directory containing the namespaces.yaml
+                  file, or the set of plain YAMLs a namespaces.yaml should be generated
                   for. Defaults to 'None', which translates to the root path of the
                   SourceRef.
                 type: string
@@ -3949,7 +3949,7 @@ spec:
                 type: boolean
               targetNamespace:
                 description: TargetNamespace sets or overrides the namespace in the
-                  kustomization.yaml file.
+                  namespaces.yaml file.
                 maxLength: 63
                 minLength: 1
                 type: string
@@ -4409,8 +4409,8 @@ spec:
                   x-kubernetes-preserve-unknown-fields: true
                 type: array
               path:
-                description: Path to the directory containing the kustomization.yaml
-                  file, or the set of plain YAMLs a kustomization.yaml should be generated
+                description: Path to the directory containing the namespaces.yaml
+                  file, or the set of plain YAMLs a namespaces.yaml should be generated
                   for. Defaults to 'None', which translates to the root path of the
                   SourceRef.
                 type: string
@@ -4509,7 +4509,7 @@ spec:
                 type: boolean
               targetNamespace:
                 description: TargetNamespace sets or overrides the namespace in the
-                  kustomization.yaml file.
+                  namespaces.yaml file.
                 maxLength: 63
                 minLength: 1
                 type: string
