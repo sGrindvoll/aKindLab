@@ -1,9 +1,0 @@
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  creationTimestamp: null
-  name: ns-app1
-spec: {}
-status: {}
----
