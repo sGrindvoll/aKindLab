@@ -5559,7 +5559,7 @@ rules:
   - namespaces
   - secrets
   - configmaps
-  - serviceaccounts
+  - traefik-ingress-ingress
   verbs:
   - get
   - list
