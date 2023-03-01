@@ -70,7 +70,7 @@ spec:
       volumes:
         - name: acme
           persistentVolumeClaim:
-            claimName: nfs-traefik
+            claimName: pvc-nfs-traefik-ingress
         - name: config-static
           configMap:
             name: cm-traefik-ingress-static
