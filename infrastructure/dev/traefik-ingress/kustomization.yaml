@@ -5,3 +5,4 @@ resources:
 - serviceaccounts.yaml
 - deployments.yaml
 - services.yaml
+- configmaps.yaml

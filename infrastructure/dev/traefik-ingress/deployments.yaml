@@ -73,4 +73,4 @@ spec:
             claimName: nfs-traefik
         - name: config-static
           configMap:
-            name: traefik-ingress-static
+            name: cm-traefik-ingress-static
