@@ -4,3 +4,4 @@ resources:
 - namespaces.yaml
 - serviceaccounts.yaml
 - deployments.yaml
+- services.yaml
