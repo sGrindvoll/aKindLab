@@ -5,5 +5,5 @@ resources:
 - serviceAccounts.yaml
 - deployments.yaml
 - services.yaml
-- configMaps.yaml
-- persistentVolumeClaims.yaml
+- clusterRoles.yaml
+- roleBindings.yaml
