@@ -27,5 +27,5 @@ spec:
           ports:
             - name: web
               containerPort: 80
-            - name: dasboard
+            - name: dashboard
               containerPort: 8080
