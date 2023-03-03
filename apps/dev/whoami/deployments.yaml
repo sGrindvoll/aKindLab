@@ -15,7 +15,7 @@ spec:
   template:
     metadata:
       labels:
-        app: whomai
+        app: whoami
     spec:
       containers:
         - name: whoami
