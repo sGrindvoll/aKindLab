@@ -6,7 +6,7 @@ metadata:
   namespace: ns-traefik-ingress
 
 roleRef:
-  apiGroup: rbac.authorization
+  apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
   name: role-traefik-ingress
 subjects:
