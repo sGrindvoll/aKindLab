@@ -13,6 +13,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: svc-whoami
+                name: whoami
                 port:
                   name: web
